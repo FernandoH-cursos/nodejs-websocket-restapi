@@ -1,14 +1,13 @@
-# Rest Project + TypeScript
+# Websocket + API REST
 
-Este proyecto previamente inicializado tiene todo lo necesario para trabajar con TypeScript, Express y Rest.
+App de colas que permite atender tickets en un especificado escritorio, además de permitir generar ticket,
+terminar tickets y mostrar los últimos 4 tickets atendidos en tiempo real usando _Web Socket_
 
-Cada paso de su configuración ya se ha realizado previamente en el curso, por lo que solo es necesario clonar el proyecto y comenzar a trabajar.
+### Temas a tratar:
 
-
-## Instalación
-
-1. Clonar .env.template a .env y configurar las variables de entorno
-2. Ejecutar `npm install` para instalar las dependencias
-3. En caso de necesitar base de datos, configurar el docker-compose.yml y ejecutar `docker-compose up -d` para levantar los servicios deseados.
-4. Ejecutar `npm run dev` para levantar el proyecto en modo desarrollo
-
+- ### Websockets + WS Library.
+- ### _Restful API_.
+- ### Conectar WebSockets con _Restful API_.
+- ### Vanilla JavaScript para el frontend (_Cliente Websocket_).
+- ### Servicios(Servicio de Websocket y Tickets).
+- ### Lógica relacionada para el funcionamiento de la aplicación.
